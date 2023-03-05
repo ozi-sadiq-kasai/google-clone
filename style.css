@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-ul{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  
+}
+.nav-ul #theGirl{
+  width: 19px;
+  border-radius: 5px;
+}
+.nav-ul #menu{
+  width: 15px;
+}
+.nav-ul li{
+  margin-left:10px;
+  padding: 10px;
+}
+.glinks{
+  text-decoration: none;
+  color: gray;
+}
+.glinks:hover{
+  text-decoration: underline;
+}
+
+/* google logo */
+
+#logo{
+  display: flex;
+  justify-content: center;
+  padding-top: 8% ;
+}
+.logos{
+  width: 100%;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logos #search{
+  width: 25px;
+  margin-right: 90%;
+}
+.logos input{
+  width: 35%;
+  outline: none;
+  padding: 10px;
+  position: absolute;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  
+}
+input:focus,
+input:active {
+  border-color: transparent;
+  /* border-bottom: 2px solid #1c87c9; */
+}
+#input-div{
+  width: 48%;
+  margin: 0 auto;
+ padding: 10px;
+ border-radius: 15px; 
+ border-color: rgb(232, 228, 228);
+}
+#voice{
+  width: 15px;
+}
+#icons {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  margin: 15px auto;
+  justify-content: center;
+}
+.images{
+margin: 10px 50px;
+width: 40px;
+
+}
