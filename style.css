@@ -70,6 +70,10 @@ input:active {
  border-radius: 15px; 
  border-color: rgb(232, 228, 228);
 }
+#input-div:hover{
+  box-shadow: 10px 10px 9px -5px rgba(0,0,0,0.52);
+}
+
 #voice{
   width: 15px;
 }
@@ -82,6 +86,8 @@ input:active {
 }
 .images{
 margin: 10px 50px;
-width: 40px;
-
+width: 25px;
+}
+.images:hover{
+  box-shadow: 10px 10px 9px -5px rgba(0,0,0,0.52);
 }
